@@ -64,5 +64,154 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-przypominamy-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://przypominamy.com/
+Przypominamy.com is a Polish SMS gateway platform offering businesses a web panel and a RESTful API for sending SMS, MMS, voice messages, and managing contacts. Founded in 2010, it provides prepaid pricing starting at 0.15 PLN per message, with volume discounts, webhook delivery reports signed with HMAC, and SDKs for Node.js and Python. The service supports two‑way SMS on request, number lookup, templates, and integrates with AI assistants via its MCP server. Documentation, pricing, and support are available in Polish.
+
+**Areas:** Company · SMS · Communications · Poland · API · Messaging
+
+## przypominamy-com on APIs.io
+
+Everything profiled for przypominamy-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/przypominamy-com/](https://apis.io/providers/przypominamy-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [przypominamy-com Czarna lista API](https://apis.io/apis/przypominamy-com/przypominamy-com-czarna-lista-api/) — Numery, na które konto nie wysyła; link opt-out
+- [przypominamy-com Kontakty i grupy API](https://apis.io/apis/przypominamy-com/przypominamy-com-kontakty-i-grupy-api/) — Książka odbiorców, grupy do wysyłki, personalizacja
+- [przypominamy-com Konto API](https://apis.io/apis/przypominamy-com/przypominamy-com-konto-api/) — Saldo, nadpis, godziny wysyłki, webhook
+- [przypominamy-com Linki API](https://apis.io/apis/przypominamy-com/przypominamy-com-linki-api/) — Śledzone linki {{link:…}} z licznikiem kliknięć
+- [przypominamy-com Numery API](https://apis.io/apis/przypominamy-com/przypominamy-com-numery-api/) — HLR: sprawdzenie, czy numer jest aktywny i w jakiej sieci, bez wysyłania SMS-a
+- [przypominamy-com Odpowiedzi (2-way) API](https://apis.io/apis/przypominamy-com/przypominamy-com-odpowiedzi-2-way-api/) — SMS-y przychodzące od odbiorców - na życzenie, po uruchomieniu numeru odbiorczego w usłudze (do tego czasu `inbound_number` jest `null`)
+- [przypominamy-com Status API](https://apis.io/apis/przypominamy-com/przypominamy-com-status-api/) — Endpointy publiczne
+- [przypominamy-com Szablony API](https://apis.io/apis/przypominamy-com/przypominamy-com-szablony-api/) — Szablony SMS/MMS/głosowe z placeholderami {{klucz}} - te same co w panelu
+- [przypominamy-com Wiadomości API](https://apis.io/apis/przypominamy-com/przypominamy-com-wiadomo-ci-api/) — Wysyłka SMS i historia wiadomości
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Przypominamy Com Webhooks](https://apis.io/asyncapis/przypominamy-com/przypominamy-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Przypominamy Com Agentic Access](https://apis.io/agentic-access/przypominamy-com/przypominamy-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/przypominamy-com/przypominamy-com-account/)
+- [ContactInput](https://apis.io/schemas/przypominamy-com/przypominamy-com-contact-input/)
+- [HlrResult](https://apis.io/schemas/przypominamy-com/przypominamy-com-hlr-result/)
+- [InboundMessage](https://apis.io/schemas/przypominamy-com/przypominamy-com-inbound-message/)
+- [Message](https://apis.io/schemas/przypominamy-com/przypominamy-com-message/)
+- [SendMessageRequest](https://apis.io/schemas/przypominamy-com/przypominamy-com-send-message-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Przypominamy Com Context](https://apis.io/jsonld/przypominamy-com/przypominamy-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [przypominamy-com API Rules](https://apis.io/rules/przypominamy-com/przypominamy-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Przypominamy Com Authentication](https://apis.io/security/przypominamy-com/przypominamy-com-authentication/)
+- [Przypominamy Com Domain Security](https://apis.io/security/przypominamy-com/przypominamy-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Przypominamy Com Scopes](https://apis.io/scopes/przypominamy-com/przypominamy-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Przypominamy Com Plans Pricing](https://apis.io/plans/przypominamy-com/przypominamy-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Przypominamy Com Rate Limits](https://apis.io/rate-limits/przypominamy-com/przypominamy-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://przypominamy.com/)
+- [Documentation](https://przypominamy.com/api/docs)
+- [API reference](https://api.przypominamy.com)
+- [Pricing](https://przypominamy.com/cennik)
+- [Support](https://przypominamy.com/kontakt)
+- [Blog](https://przypominamy.com/blog)
+- [Terms of service](https://przypominamy.com/regulamin)
+- [Privacy policy](https://przypominamy.com/polityka-prywatnosci)
+
+## API Evangelist rating
+
+**Kin Score 63.4** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 70.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.6 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 55.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 35.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/przypominamy-com/](https://apis.io/providers/przypominamy-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for przypominamy-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/przypominamy-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
